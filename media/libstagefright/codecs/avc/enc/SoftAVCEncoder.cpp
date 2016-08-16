@@ -162,7 +162,7 @@ SoftAVCEncoder::SoftAVCEncoder(
             callbacks, appData, component),
       mIDRFrameRefreshIntervalInSec(1),
       mAVCEncProfile(AVC_BASELINE),
-      mAVCEncLevel(AVC_LEVEL2),
+      mAVCEncLevel(AVC_LEVEL3_1), // up to 720p @ 30 FPS
       mNumInputFrames(-1),
       mPrevTimestampUs(-1),
       mStarted(false),
